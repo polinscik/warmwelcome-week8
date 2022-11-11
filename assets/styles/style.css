@@ -1,0 +1,29 @@
+.my-style-body {
+    background-color: #efeff2;
+}
+.my-style-main-card {
+    background-color: #e9ecef;
+}
+
+@media screen and (min-width: 1024px) {
+    .my-style-main {
+        margin: 0 15%;
+    }
+    .my-style-nav-1 {
+        margin-left: 15%;
+    }
+    .my-style-nav-2 {
+        margin-right: 15%;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .my-style-main {
+        margin: 0 5rem;
+    }
+    .my-style-nav-1 {
+        margin-left: 5rem;
+    }
+    .my-style-nav-2 {
+        margin-right: 5rem;
+    }
+}
